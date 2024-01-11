@@ -1,0 +1,424 @@
+/* ROBOTO FONT */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    user-select: none;
+}
+/* HERO PAGE STYLING */
+.HomePageSection {
+    background: url("./assets/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+/* NAVBAR STYLING  */
+.ParentDiv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-top: 50px;
+}
+/* NAVBAR TEXT STYLING */
+.navLinks {
+    color: white;
+    text-decoration: none;
+    transition: all 0.5 ease-in-out;
+}
+.navLinks:hover {
+    color: #FFA800;
+}
+/* REGISTER BUTTON STYLING */
+.registerBtn {
+    width: auto;
+    flex-shrink: 0;
+    padding: 10px 30px;
+    border-radius: 96px;
+    border: 1px solid #FFF;
+    background: #1E1E1E;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+.registerBtn:hover {
+    background-color: #FFA800;
+    color: #1F2D39;
+    border: 1px solid black;
+    font-weight: 700;
+}
+/* HERO PAGE WELCOME TEXTS */
+.welcomeText {
+    color: white;
+    line-height: 1px;
+    margin-top: 15%;
+    margin-left: 7%;
+}
+.welcomTextFlex>h2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+.welcomTextFlex>h1 {
+    font-size: 6.5rem;
+    color: #FFA800;
+}
+#booksText {
+    color: white;
+}
+/* SUB TEXTS OF HERO SECTION */
+.subTexts {
+    font-size: 20px;
+    font-weight: 200;
+}
+/* EXPLORE BUTTON STYLING */
+.exploreBtn {
+    padding-top: 20px;
+}
+
+.btnText:hover {
+    background-color: #ffa800;
+    color: #1F2D39;
+    font-weight: 700;
+    border: #1F2D39;
+}
+
+.btnText {
+    transition: 0.5s ease-in-out;
+    width: auto;
+    flex-shrink: 0;
+    padding: 10px 30px;
+    border-radius: 96px;
+    border: 1px solid #FFF;
+    background: #1E1E1E;
+    color: white;
+}
+/* SEARCH RESULTS SECTION STYLING */
+
+.SearchResultsSection {
+    background: url("./assets/bg2.png");
+    background-size: cover;
+
+}
+/* SEARCH BAR STYLING */
+.searchDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.SearchInput {
+    width: 40%;
+    padding: 15px 10px;
+    border-radius: 50px;
+    padding-left: 30px;
+    border: none;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.SearchInput:focus {
+    outline: none;
+}
+
+.SearchInput::placeholder {
+    color: white;
+}
+
+.searchResultsHeader {
+    padding-top: 91px;
+    margin-left: 7%;
+    line-height: 10px;
+}
+/* searcch results header text styling */
+.topText {
+    color: #FFA800;
+}
+
+.subTopText {
+    color: white;
+    font-size: 32px;
+}
+/* card div styling */
+.mainCardDiv {
+    display: grid;
+    justify-content: center;
+    place-content: center;
+    margin-top: 5%;
+    flex-wrap: wrap;
+}
+
+.parentCardDiv {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10%;
+    row-gap: 100px;
+    width: 0px;
+    place-content: center;
+    padding-bottom: 120px;
+}
+/* indiividual card styling */
+.individualCard {
+    padding: 0px 60px;
+}
+
+.Credentials {
+    color: white;
+    width: 280px;
+}
+
+.Credentials>h2 {
+    font-size: 20px;
+}
+
+
+.innerCredentials {
+    display: flex;
+    line-height: 0px;
+    font-weight: 300;
+    justify-content: space-between;
+}
+
+.free {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.authorName {
+    line-height: 25px;
+}
+
+.BookImage {
+    width: 280px;
+    height: 400px;
+    object-fit: cover;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+/* FORMS STYLING */
+.RegisterComponent {
+    background-image: url("./assets/bg2.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.logoDivForms {
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+.logoDivForms>img {
+    width: 300px;
+    padding-bottom: 3%;
+}
+
+
+.FormMainDiv {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+    justify-content: center;
+}
+
+.FormParentButton {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+.flexButton {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    padding-top: 2%;
+}
+
+.Formbutton {
+    color: black;
+    background-color: #FFA800;
+    border: none;
+    width: 160px;
+    padding: 1.5%;
+    border-radius: 35px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+
+
+.FormDiv {
+    background-color: #1F2D39;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 615px;
+    border-radius: 12px;
+    margin-top: 5%;
+}
+
+.FormDiv>h1 {
+    padding-top: 30px;
+}
+
+.formInputs {
+    background-color: #2D3F4E;
+    color: white;
+    border: none;
+    width: 80%;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.flexFormInputs {
+    display: flex;
+    width: 90%;
+}
+
+.formInputs:focus {
+    outline: none;
+    border: none;
+}
+
+.formInputs::placeholder {
+    color: white;
+}
+
+.err {
+    color: #FFA800;
+}
+
+/* FOOTER STYLING
+ */
+
+footer {
+    background-image: url("./assets/footer-bg.jpg");
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.footerFlex {
+    display: flex;
+    align-items: center;
+}
+
+.footerLogo {
+    width: 150px;
+    height: 28px;
+}
+/* scroll bar styling */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1F2D39;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FFA800;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #FFA800;
+    border-radius: 20px;
+}
+
+.LogoHomeDiv {
+    width: 80%;
+}
+/* media queries */
+
+@media only screen and (max-width: 700px) {
+    /* navbar styling */
+    .ParentDiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navLinks {
+        display: none;
+    }
+
+    .registerBtn {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .welcomeText {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    /* hero texxt styling */
+
+    .welcomeText>h2 {
+        display: none;
+    }
+
+
+    .welcomTextFlex>h1 {
+        font-size: 4rem;
+        line-height: 80px;
+    }
+/* cards styling */
+    .individualCard {
+        padding: 0px;
+    }
+
+    .parentCardDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    }
+/* search result styling */
+    .searchResultsHeader {
+        padding-bottom: 20px;
+    }
+
+    .searchDiv {
+        padding-bottom: 20px;
+    }
+    /* form stlying */
+
+    .FormDiv {
+        width: 80%;
+    }
+
+    .FormDiv {
+        font-size: 60%;
+    }
+
+    .Formbutton {
+        color: black;
+        background-color: #FFA800;
+        border: none;
+        width: 100px;
+        padding: 1.5%;
+        border-radius: 35px;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 600;
+
+    }
+
+
+
+}
