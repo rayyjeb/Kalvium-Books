@@ -21,9 +21,8 @@ const Homepage = () => {
               <div>
                 <img
                   className="LogoHomeDiv"
-                  src="../assets/kalvibookslogo.png"
-                  alt="logo"
-                ></img>
+                  src="https://i.ibb.co/nD3yW7j/kalvibookslogo.png"
+                />
               </div>
               <Link to="/" style={{ textDecoration: "none" }}>
                 <h3 className="navLinks" style={{ color: "#ffa800" }}>

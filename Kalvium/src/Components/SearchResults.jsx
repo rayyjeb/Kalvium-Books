@@ -89,10 +89,10 @@ function SearchBooks() {
           </div>
         </div>
       </article>
-      {/* footer */}
+      {/* FOOTER */}
       <footer>
         <div className="footerFlex">
-          <img className="footerLogo" src="/src/assets/Group 3.png"></img>
+          <img className="footerLogo" src="https://i.ibb.co/nD3yW7j/kalvibookslogo.png"></img>
         </div>
       </footer>
     </div>

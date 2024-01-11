@@ -12,7 +12,7 @@ const Forms = () => {
     watch,
     formState: { errors },
   } = useForm();
-// form submission
+  // form submission
   const formSubmitHandler = (data) => {
     toast.success("Registration Successful", {
       position: "top-center",
@@ -25,19 +25,18 @@ const Forms = () => {
       theme: "colored",
     });
     // Getting the existing credentials from local storage
-    const StoreData =
-      JSON.parse(localStorage.getItem("credentials")) || [];
+    const StoreData = JSON.parse(localStorage.getItem("credentials")) || [];
     StoreData.push(data);
-        // Saving the updated credentials to local storage
+    // Saving the updated credentials to local storage
     localStorage.setItem("credentials", JSON.stringify(StoreData));
 
     console.log("data:", data);
   };
-    // Getting the value of the password field using watch function
+  // Getting the value of the password field using watch function
   const passwordValue = watch("password", "");
   // State to store whether the password is visible or not
   const [showPassword, setShowPassword] = useState(false);
- // Function to toggle the visibility of the password field
+  // Function to toggle the visibility of the password field
   const passwordShow = () => {
     setShowPassword(!showPassword);
   };
@@ -49,7 +48,7 @@ const Forms = () => {
         <Link to="/">
           <div className="logoDivForms">
             {/* navbar */}
-            <img src="../assets/kalvibookslogo.png"></img>
+            <img src="https://i.ibb.co/nD3yW7j/kalvibookslogo.png"></img>
           </div>
         </Link>
         <div className="FormMainDiv">
@@ -133,7 +132,7 @@ const Forms = () => {
             <div className="FormParentButton flexButton">
               {/* submit button */}
               <input type="submit" value="Submit" className="Formbutton" />
-             {/* reset button */}
+              {/* reset button */}
               <button
                 onClick={() => {
                   reset();
