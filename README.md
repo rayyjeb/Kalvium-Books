@@ -18,7 +18,7 @@ Make sure you have the following installed:
 
 - [Node.js](https://nodejs.org/)
 - [npm](https://www.npmjs.com/) (Node Package Manager)
-![image](https://github.com/rayyjeb/Kalvium-Books/assets/142793649/29765043-b50b-4bd9-a0d9-c6ef1ebea0dc)
+![Screenshot 2024-01-11 165342](https://github.com/rayyjeb/Kalvium-Books/assets/142793649/f69c7ec6-2a47-4341-95eb-31549e4987da)
 ![image](https://github.com/rayyjeb/Kalvium-Books/assets/142793649/0cf01b78-29d9-40c7-9745-0004ff58ec18)
 ![image](https://github.com/rayyjeb/Kalvium-Books/assets/142793649/61eb1a01-e5cd-4f72-a2d2-42bba700fc48)
 
