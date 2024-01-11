@@ -48,7 +48,7 @@ const Forms = () => {
         <Link to="/">
           <div className="logoDivForms">
             {/* navbar */}
-            <img src="https://i.ibb.co/nD3yW7j/kalvibookslogo.png"></img>
+            <img src="https://i.ibb.co/nD3yW7j/kalvibookslogo.png"gi></img>
           </div>
         </Link>
         <div className="FormMainDiv">
