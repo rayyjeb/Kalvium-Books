@@ -6,9 +6,7 @@ Welcome to Kalvium Books, your one-stop destination for exploring millions of bo
 
 - **Search Millions of Books:** Use our powerful search functionality to discover books from a vast collection.
 
-- **User Registration:** Create an account to personalize your experience and access features like bookmarking, reviews, and personalized recommendations.
-
-- **Preference-based Recommendations:** Receive book recommendations based on your reading history and preferences.
+- **User Registration:** Create an account to personalize your experience.
 
 ## Getting Started
 
